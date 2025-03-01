@@ -78,7 +78,7 @@ router.post('/signin', (req, res) => {
         // Requires no authentication.
         // Returns a JSON object with status, message, headers, query, and env.
         var o = getJSONObjectForMovieRequirement(req);
-        o.status = 200;
+        o.status = 201;
         o.message = "GET movies";
         res.json(o);
     })
