@@ -58,12 +58,12 @@ You may use any of the standard packages included in Node.js or any third-party 
 - Submit the Url to canvas with the REPO CSC_3916
 - Note: All tests should be testing against your Heroku or Render endpoint
 
-## Rubic
-- -1 missing unique key 
-- -1 basic auth not included
-- -1 JWT auth missing
-- -2 movies route issues (not responding with correct response)
-- -2 missing postman requirements (-1 if just a minor miss)
+## Rubric
+- 1 missing unique key
+- 1 basic auth not included
+- 1 JWT auth missing
+- 2 movies route issues (not responding with correct response)
+- 2 missing postman requirements (-1 if just a minor miss)
 
 ## Resources
 - http://nodejs.org
