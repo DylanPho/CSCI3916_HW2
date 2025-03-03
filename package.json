@@ -1,5 +1,5 @@
 {
-  "name": "csc3916_hw2",
+  "name": "CSCI3916_HW2",
   "version": "1.0.0",
   "description": "Web API 3916 Homework 2",
   "main": "server.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawnmccarthy/CSC3916_HW2.git"
+    "url": "git+https://github.com/DylanPho/CSCI3916_HW2.git"
   },
   "keywords": [
     "Movie"
   ],
-  "author": "Shawn McCarthy",
+  "author": "Dylan Phoutthavong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shawnmccarthy/CSC3916_HW2/issues"
+    "url": "https://github.com/DylanPho/CSCI3916_HW2/issues"
   },
-  "homepage": "https://github.com/shawnmccarthy/CSC3916_HW2#readme",
+  "homepage": "https://github.com/DylanPho/CSCI3916_HW2#readme",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",

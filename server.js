@@ -72,13 +72,13 @@ router.post('/signin', (req, res) => {
     }
 });
 
-    router.route('/movies')
+router.route('/movies')
     .get((req, res) => {
-        // HTTP GET Method
+        /// HTTP GET Method
         // Requires no authentication.
         // Returns a JSON object with status, message, headers, query, and env.
         var o = getJSONObjectForMovieRequirement(req);
-        o.status = 201;
+        o.status = 200;
         o.message = "GET movies";
         res.json(o);
     })
@@ -114,7 +114,7 @@ router.post('/signin', (req, res) => {
         // Returns a message stating that the HTTP method is unsupported.
         res.status(405).send({ message: 'HTTP method not supported.' });
     });
- 
+    
 app.use('/', router);
 app.listen(process.env.PORT || 8080);
 module.exports = app; // for testing only
